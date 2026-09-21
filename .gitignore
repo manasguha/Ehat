@@ -1,0 +1,18 @@
+# Vendored TTS weights (316 MB) -- auto-downloaded by Kokoro, never needed by
+# the dashboard or by the ML pipeline.
+models/kokoro/
+
+# Generated media: narration audio + rendered video (~13 MB). Regenerable via
+# src/generate_narration.py + src/generate_video_final.py.
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db

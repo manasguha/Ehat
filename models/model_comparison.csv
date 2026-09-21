@@ -1,0 +1,4 @@
+Model,MAE (kW),RMSE (kW),R²
+Linear Regression,8.9823,13.9533,0.9419
+Polynomial Regression,8.7152,12.7796,0.9513
+Random Forest,7.7464,12.5302,0.9532

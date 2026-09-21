@@ -1,0 +1,10 @@
+# Extra dependencies for figures, narration and video only -- not needed by the
+# dashboard. Install with: pip install -r requirements-video.txt
+# (src/generate_narration.py, src/generate_video_*.py, src/visualization.py)
+-r requirements.txt
+matplotlib>=3.7.0
+seaborn>=0.12.0
+kokoro>=0.9.0
+soundfile>=0.12.0
+pydub>=0.25.0
+Pillow>=10.0.0
