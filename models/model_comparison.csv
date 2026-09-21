@@ -1,0 +1,4 @@
+Model,MAE (kWh),RMSE (kWh),MAPE (%),R²
+Linear Regression,3.0996,4.2611,74.1004,0.8645
+Polynomial Regression,2.2129,3.3975,23.2633,0.9139
+Random Forest,2.1951,3.4305,13.3664,0.9122

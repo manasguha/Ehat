@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Local Streamlit secrets (never commit credentials)
+.streamlit/secrets.toml
+
+# Note: models/*.pkl and data/*.csv are deliberately NOT ignored -- the deployed
+# dashboard loads the pickled models instead of retraining on startup, and the
+# dataset keeps the run reproducible.

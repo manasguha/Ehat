@@ -1,0 +1,16 @@
+# Streamlit config for the deployed dashboard.
+# Colours match the report/deck theme (navy + electric blue accents).
+[theme]
+base = "light"
+primaryColor = "#2c3e50"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f4f6f8"
+textColor = "#1f2d3d"
+font = "sans serif"
+
+# Keep the public app clean: hides the Deploy/menu chrome a visitor does not need.
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false

@@ -1,0 +1,3 @@
+Feature set,MAE (kWh),R2,Used in the deployed app
+Time + Speed + Load,2.1951,0.9122,yes - the inputs are known in advance
+Time + Speed + Load + sequential lags,1.899,0.9338,no - the previous hours' consumption is unknown at forecast time

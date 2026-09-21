@@ -1,0 +1,14 @@
+# Dashboard / deployment dependencies.
+# Only the packages the Streamlit app and the pipeline modules it imports need,
+# so the cloud build stays fast.
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+plotly>=5.15.0
+# The dashboard imports the shared verdict/scenario helpers from
+# src/visualization.py, and that module renders the report figures with
+# matplotlib, so it is a runtime dependency of the app as well.
+matplotlib>=3.7.0
+# The dashboard uses the width="stretch" chart/table API, which needs the
+# AdvancedLayouts-era Streamlit; older pins silently break every page.
+streamlit>=1.50.0

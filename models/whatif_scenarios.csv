@@ -1,0 +1,8 @@
+Scenario,Time,Description,Speed (km/h),Load (kg),Energy (kWh),kWh/100 km,Status
+A,02:00,Parked overnight,0,0,0.55,—,PARKED
+B,05:00,"Early motorway run, fully loaded",80,1200,27.61,34.5,CRITICAL DRAW
+C,08:00,"Morning city rush, loaded",25,900,5.65,22.6,HIGH DRAW
+D,12:00,"Midday free flow, half load",60,500,15.28,25.5,CRITICAL DRAW
+E,14:00,"Afternoon motorway, fully loaded",90,1200,34.62,38.5,CRITICAL DRAW
+F,18:00,"Evening city rush, empty",22,100,4.25,19.3,EFFICIENT
+G,19:00,"Return leg, light load",75,250,21.4,28.5,CRITICAL DRAW
